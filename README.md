@@ -1,21 +1,43 @@
-# truck-sim-mods
-A curated list of mods for SCS truck simulator games
+# American Truck Simulator Mod List
+
+> [!WARNING]
+> **Disclaimer:** Modding any game comes with its own risks. I am not the creator of any of these mods. Mods can and sometimes will break on a game update. It is best to prevent automatic updates to avoid mods breaking until they are patched.
+>
+> This guide is provided as-is. I will not provide support for game file corruption, game breakage, & performance issues.
+>
+> If you want other mods supported, please create an issue, and if you can, a pull request too.
 
 ## Installation
 
-### Step 1: Download the mods (must download all)
-  - [Flubba's Steam Workshop Mod List](https://steamcommunity.com/sharedfiles/filedetails?id=3797669251)
+### Step 1: Download and import the mods (must download all)
+  1. Steam workshop:
+     1. Subscribe to the entire mod list [Flubba's Steam Workshop Mod List](https://steamcommunity.com/sharedfiles/filedetails?id=3797669251)
+
+  2. Manual:
+     1. Download the mods:
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+     1. Import the mods:
+        1. Navigate to your downloads folder
+        2. Extract all of the mod `.zip` files
+        3. Navigate to `C:\Users\<YOUR USER>\Documents\American Truck Simulator\mods`
+        4. Paste all of the `.scs` mod files into the mod folder
 
 ### Step 2: Career
 To import the mod load order there are 2 methods.
 
 - New Career (recommended):
   > Creates a new career that is separate from your main career. This method does not affect your current mods, XP, money, and progress in your current career. Useful for having a dedicated career for multiplayer.
-  > If you want to start from the begining then delete the save files
-  1. Download any of the following career's
-  2. Navigate to `C:\Users\<YOUR USER>\Downloads\career`
-  3. Copy the new career/profile folder from your downloads folder into `C:\Users\<YOUR USER>\Documents\American Truck Simulator\profiles`
-  4. From your existing career, take and copy the following files into the new career's profile folder, replacing the existing files (optional, but converts all of your keybinds and game settings over to your new career)
+  > If you want to start from the beginning then delete the save files
+  1. Download the repo in a zip format [main.zip](https://github.com/BigFlubba/truck-sim-mods/archive/refs/heads/main.zip)
+  2. Navigate to your downloads folder
+  3. Extract `truck-sim-mods-main.zip`
+  4. Navigate to `\truck-sim-mods-main\truck-sim-mods-main\career`
+  5. Copy the new career/profile folder from your downloads folder into `C:\Users\<YOUR USER>\Documents\American Truck Simulator\profiles`
+  6. From your existing career, take and copy the following files into the new careers profile folder, replacing the existing files (optional, but converts all of your key-binds and game settings over to your new career)
      - `config.cfg`
      - `config_local.cfg`
      - `controls.sii`
@@ -38,9 +60,9 @@ To import the mod load order there are 2 methods.
   3. Navigate to `C:\Users\<YOUR USER>\Documents\American Truck Simulator\profiles\YOUR PROFILE ID\profile.sii`
   4. Upload the sii file to [Sii Decode](https://sii-decode.github.io/) and decode it
   5. Download the decoded `profile.sii` file
-  6. In your prefered text editor add these following lines and replacing ` active_mods: COUNT` line with the new one.
+  6. In your preferred text editor add these following lines and replacing ` active_mods: COUNT` line with the new one.
 
-     ##### Note: If you have existing mods in your current career, this will disable all of them and remove thier order. You must either manually enable them and set their order, or edit your `profile.sii` file
+     ##### Note: If you have existing mods in your current career, this will disable all of them and remove their order. You must either manually enable them and set their order, or edit your `profile.sii` file
      
      ```sii
       active_mods: 57
@@ -103,3 +125,11 @@ To import the mod load order there are 2 methods.
       active_mods[56]: "better_flares_v4.5.2_dot_n|Better Flares v4.5.2 - Headlights DOT Neutral"
      ```
    7. Save the `profile.sii` file
+
+### Step 3: Edit your game settings
+
+In order to take advantage of some of the mods you will need to change some game and graphics settings. Changing some of these settings will impact performance, but allows the mods to work.
+
+1. Graphics settings
+   1. Disable SSAO (required by )
+   2. Enable lighting distance
