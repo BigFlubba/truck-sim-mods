@@ -23,7 +23,7 @@
 >
 > This guide, careers, saves, & mods may work on earlier versions, but support for any other version will not be available (including VR). I tried to keep compatibility as broad as possible, but mod and career support for other versions are out of my control.
 
-### Step 1: Download and import the mods (must download all) (required)
+### Step 1: Download and import the mods (must download all)
   1. Steam Workshop:
      1. Subscribe to the entire mod list [Flubba's Steam Workshop Mod List](https://steamcommunity.com/sharedfiles/filedetails?id=3797669251)
 
@@ -39,10 +39,8 @@
         2. Extract all of the mod `.zip` files
         3. Navigate to your documents folder `\American Truck Simulator\mods`
         4. Paste all of the `.scs` mod files into the mod folder
-       
----
 
-### Step 2: Career
+### Step 2: Career (the game must be closed during this step)
 To import the mod load order, there are a few methods. `profile.sii` & a save file are required to import the order. This, in turn, will create a new career.
 
 - New Career (recommended):
@@ -65,7 +63,12 @@ To import the mod load order, there are a few methods. `profile.sii` & a save fi
 - Add to existing career:
 [see add-to-existing career README]()
 
----
+- Manual modding
+  > This only adds the mods to your existing career. You are responsible for the mod load order being correct.
+  
+  1. Manually activate all of the mods in the mod manager
+  2. Adjust the mod loading order
+  3. Press "Confirm"
 
 ### Step 3: Edit your game settings
 
@@ -74,3 +77,5 @@ In order to take advantage of some of the mods, you will need to change some gam
 1. Graphics settings
    1. Disable SSAO (required by )
    2. Enable lighting distance
+  
+### Step 3: Restart game
