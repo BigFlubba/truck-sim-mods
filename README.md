@@ -13,3 +13,7 @@
 > All mods and other tools listed in this guide belong to their respective owners. I'm not the creator of any of these mods or tools. Some save files and careers have been modified for my preferences.
 > 
 > If you want other mods supported, please create an issue and, if you can, a pull request too.
+
+## Installation
+- ATS [(see the install readme)](https://github.com/BigFlubba/truck-sim-mods/ATS)
+- ETS2 (not currently supported in this guide)
